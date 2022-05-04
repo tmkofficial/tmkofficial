@@ -56,7 +56,7 @@
 		$(this).html(event.strftime(format));
 	})
 	.on('finish.countdown', function(event) {
-	$(this).html('This offer has expired!')
+	$(this).html('Minecraft Bedrock')
 		.parent().addClass('disabled');
     });
 
